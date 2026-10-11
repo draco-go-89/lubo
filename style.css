@@ -49,41 +49,41 @@ html, body {
 }
 
 .btn-one {
-    background-image: url('home2.png');
+    background-image: url('image/home2.png');
     left: 1%;
     top: 0%;
     background-size: 75%;
 }
 
 .btn-six {
-    background-image: url('portt.png');
+    background-image: url('image/portt.png');
     right: 1%;
     top: 0%;
     background-size: 94%;
 }
 
 .btn-two {
-    background-image: url('eye.jpg');
+    background-image: url('image/eye.jpg');
     right: 19%;
     top: 25%;
 }
 
 .btn-four {
-    background-image: url('hack.jpg');
+    background-image: url('image/hack.jpg');
     left: 10%;
     bottom: 10%;
     background-size: 100%;
 }
 
 .btn-five {
-    background-image: url('uzi.jpg');
+    background-image: url('image/uzi.jpg');
     right: 6%;
     bottom: 11%;
     background-size: 75%;
 }
 
 .btn-seven {
-    background-image: url('alarm3.png');
+    background-image: url('image/alarm3.png');
     right: 50%;
     bottom: 34%;
     background-size: 81%;
