@@ -1,0 +1,17 @@
+{
+  "changelists": [
+    {
+      "name": "Default",
+      "files": [
+        "projects.html",
+        ".vscode/changelists.json",
+        "guiter.jpg",
+        "github1.png",
+        "hack.jpg",
+        "youtube.jpg",
+        "musicplayer1.apk"
+      ]
+    }
+  ],
+  "active": "Default"
+}

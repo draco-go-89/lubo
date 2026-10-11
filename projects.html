@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 40px 20px;
+            background-color: #ffffff;
+            font-family: system-ui, -apple-system, sans-serif;
+            color: #000000;
+        }
+
+        .project-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .project-card {
+            flex: 1;
+            min-width: 300px;
+            max-width: 380px;
+            display: flex;
+            flex-direction: column;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-img-wrapper {
+            width: 100%;
+            height: 240px;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .project-img {
+            width: 70%;
+            height: 70%;
+            object-fit: contain;
+        }
+
+        .project-info {
+            align-items: center;  /* the text center */
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .project-info h3 {
+            margin: 0 0 10px 0;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .project-info p {
+            margin: 0 0 20px 0;
+            font-size: 14px;
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        .pill-btn {
+            /* align-self: flex-start; */
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 10px;
+            font-weight: 400;
+            color: #000000;
+            text-decoration: none;
+            background-color: #ffffff;
+            border: 1.5px solid #000000;
+            border-radius: 50px;
+            transition: background-color 0.2s ease, color 0.2s ease;
+            cursor: pointer;
+        }
+
+        .pill-btn:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+
+    </style>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="guiter.jpg" alt="preview" class="project-img">
+            </div>
+            <div class="project-info">
+                <h3>music player app</h3>
+                <p>A simple Music Player app built by me. Simple and responsive, this app has a password protection login
+              system which makes the app unique to other Music Players.</p>
+                <a href="musicplayer1.apk" download="music player - Lubo" class="pill-btn">Install</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="alarm3.png" alt="preview" class="project-img">
+            </div>
+            <div class="project-info">
+                <h3>alarm app</h3>
+                <p>This is a Smart Alarm App, that challenges you with math puzzles to silence the alarm.
+              The alarm rings at high volume automatically, though you can lower it up to 50%. Until and unless the
+              puzzles are solved, the user cannot switch or open to another application.
+              The app also features a built-in music player. Now you can update the app its all free. 
+              Install the latest release-9 apk from the drive. [Last update: September 26]</p>
+                <a href="https://drive.google.com/drive/folders/1tks9RpewnjAvlqmUVNC4kSq3ZHX9EPJs" target="_blank" class="pill-btn">Install from drive</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="uzi.jpg" alt="preview" class="project-img">
+            </div>
+            <div class="project-info">
+                <h3>music player webpage</h3>
+                <p>My personal Music Player application built with HTML, CSS, and JavaScript. Get it on the webpage link
+              below.</p>
+                <a href="https://draco-go-89.github.io/music-player/" target="_blank" class="pill-btn">Play</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="youtube.jpg" alt="preview" class="project-img">
+            </div>
+            <div class="project-info">
+                <h3>Youtube</h3>
+                <p>Youtube search webpage. I code this with HTML CSS & JavaScript</p>
+                <a href="https://draco-go-89.github.io/youtube-search/" target="_blank" class="pill-btn">Youtube</a>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <div class="project-img-wrapper">
+                <img src="github1.png" alt="preview" class="project-img">
+            </div>
+            <div class="project-info">
+                <h3>Go to Github</h3>
+                <p>Find more of my coding Projects in the Github</p>
+                <a href="" target="_blank" class="pill-btn">Click Me</a>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
