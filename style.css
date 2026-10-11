@@ -26,14 +26,14 @@ html, body {
     background-image: url('home2.png');
     left: 1%;
     top: 0%;
-    background-size: 70%;
+    background-size: 75%;
 }
 
 .btn-six {
     background-image: url('portt.png');
     right: 1%;
     top: 0%;
-    background-size: 90%;
+    background-size: 94%;
 }
 
 .btn-two {
@@ -51,9 +51,10 @@ html, body {
 }
 
 .btn-four {
-    background-image: url('skell.jpg');
-    left: 20%;
-    bottom: 10px;
+    background-image: url('hack.jpg');
+    left: 10%;
+    bottom: 10%;
+    background-size: 100%;
 }
 
 .btn-five {
@@ -66,6 +67,6 @@ html, body {
 .btn-seven {
     background-image: url('alarm3.png');
     right: 50%;
-    bottom: 24%;
+    bottom: 34%;
     background-size: 81%;
 }
