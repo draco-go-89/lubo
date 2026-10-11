@@ -1,0 +1,71 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    position: relative;
+}
+
+.img-btn {
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    width: 120px;
+    height: 120px;
+
+    transition: transform 0.2s ease opacity 0.2s ease;
+    opacity: 0.9;
+}
+
+.btn-one {
+    background-image: url('home2.png');
+    left: 1%;
+    top: 0%;
+    background-size: 70%;
+}
+
+.btn-six {
+    background-image: url('portt.png');
+    right: 1%;
+    top: 0%;
+    background-size: 90%;
+}
+
+.btn-two {
+    background-image: url('eye.jpg');
+    right: 19%;
+    top: 25%;
+}
+
+.btn-three {
+    background-image: url('star.jpg');
+    left: 1%;
+    top: 20%;
+    transform: translateY(-20%, -20%);
+    background-size: 19%;
+}
+
+.btn-four {
+    background-image: url('skell.jpg');
+    left: 20%;
+    bottom: 10px;
+}
+
+.btn-five {
+    background-image: url('uzi.jpg');
+    right: 6%;
+    bottom: 11%;
+    background-size: 75%;
+}
+
+.btn-seven {
+    background-image: url('alarm3.png');
+    right: 50%;
+    bottom: 24%;
+    background-size: 81%;
+}
