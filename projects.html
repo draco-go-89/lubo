@@ -43,9 +43,10 @@
             transition: transform 0.3s ease;
         }
 
-        .project-card:hover {
+        /* disabled this hover cuz if i enable this the navbar vanish away */
+        /* .project-card:hover {
             transform: translateY(-5px);
-        }
+        } */
 
         .project-img-wrapper {
             width: 100%;
@@ -63,7 +64,8 @@
         }
 
         .project-info {
-            align-items: center;  /* the text center */
+            align-items: center;
+            /* the text center */
             padding: 20px 10px;
             display: flex;
             flex-direction: column;
@@ -103,7 +105,34 @@
             color: #ffffff;
         }
 
+        .img-btn {
+            display: flex;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            width: 120px;
+            height: 120px;
+        }
+
+        .btn-one {
+            background-image: url('image/home2.png');
+            left: 1%;
+            top: 0%;
+            background-size: 75%;
+        }
+
+        .btn-six {
+            background-image: url('image/portt.png');
+            right: 1%;
+            top: 0%;
+            background-size: 94%;
+        }
     </style>
+    
+    <a href="index.html" class="img-btn btn-one" target="_self" title="Link 1"></a>
+    <a href="https://my-portfolio-rho-red-28.vercel.app/" class="img-btn btn-six" target="_self" title="Link 6"></a>
 
     <div class="project-container">
 
@@ -113,8 +142,9 @@
             </div>
             <div class="project-info">
                 <h3>music player app</h3>
-                <p>A simple Music Player app built by me. Simple and responsive, this app has a password protection login
-              system which makes the app unique to other Music Players.</p>
+                <p>A simple Music Player app built by me. Simple and responsive, this app has a password protection
+                    login
+                    system which makes the app unique to other Music Players.</p>
                 <a href="image/musicplayer1.apk" download="music player - Lubo" class="pill-btn">Install</a>
             </div>
         </div>
@@ -126,11 +156,13 @@
             <div class="project-info">
                 <h3>alarm app</h3>
                 <p>This is a Smart Alarm App, that challenges you with math puzzles to silence the alarm.
-              The alarm rings at high volume automatically, though you can lower it up to 50%. Until and unless the
-              puzzles are solved, the user cannot switch or open to another application.
-              The app also features a built-in music player. Now you can update the app its all free. 
-              Install the latest release-9 apk from the drive. [Last update: September 26]</p>
-                <a href="https://drive.google.com/drive/folders/1tks9RpewnjAvlqmUVNC4kSq3ZHX9EPJs" target="_blank" class="pill-btn">Install from drive</a>
+                    The alarm rings at high volume automatically, though you can lower it up to 50%. Until and unless
+                    the
+                    puzzles are solved, the user cannot switch or open to another application.
+                    The app also features a built-in music player. Now you can update the app its all free.
+                    Install the latest release-9 apk from the drive. [Last update: September 26]</p>
+                <a href="https://drive.google.com/drive/folders/1tks9RpewnjAvlqmUVNC4kSq3ZHX9EPJs" target="_blank"
+                    class="pill-btn">Install from drive</a>
             </div>
         </div>
 
@@ -141,7 +173,7 @@
             <div class="project-info">
                 <h3>music player webpage</h3>
                 <p>My personal Music Player application built with HTML, CSS, and JavaScript. Get it on the webpage link
-              below.</p>
+                    below.</p>
                 <a href="https://draco-go-89.github.io/music-player/" target="_blank" class="pill-btn">Play</a>
             </div>
         </div>
