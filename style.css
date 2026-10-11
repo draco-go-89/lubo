@@ -22,6 +22,32 @@ html, body {
     opacity: 0.9;
 }
 
+.textt  {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 90px;
+    height: auto;
+    padding: 4px 10px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1.2px solid #000000;
+    border-radius: 50px;
+    white-space: nowrap;
+    
+}
+
+.textt {
+    /* background-image: url('star.jpg'); */
+    left: 10%;
+    bottom: 8%;
+    /* transform: translateY(-20%, -20%); */
+}
+
 .btn-one {
     background-image: url('home2.png');
     left: 1%;
@@ -40,14 +66,6 @@ html, body {
     background-image: url('eye.jpg');
     right: 19%;
     top: 25%;
-}
-
-.btn-three {
-    background-image: url('star.jpg');
-    left: 1%;
-    top: 20%;
-    transform: translateY(-20%, -20%);
-    background-size: 19%;
 }
 
 .btn-four {
