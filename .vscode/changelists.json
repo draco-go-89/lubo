@@ -3,9 +3,9 @@
     {
       "name": "Default",
       "files": [
+        "index.html",
         ".vscode/changelists.json",
-        "projects.html",
-        "image/music1.jpg"
+        "style.css"
       ]
     }
   ],

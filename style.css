@@ -44,8 +44,8 @@ html, body {
 
 .textt {
     /* background-image: url('star.jpg'); */
-    left: 10%;
-    bottom: 8%;
+    left: 11%;
+    bottom: 9%;
     /* transform: translateY(-20%, -20%); */
 }
 
@@ -65,21 +65,21 @@ html, body {
 
 .btn-two {
     background-image: url('image/eye.jpg');
-    right: 19%;
-    top: 25%;
+    right: 5%;
+    bottom: 11%;
 }
 
 .btn-four {
     background-image: url('image/hack.jpg');
     left: 10%;
-    bottom: 10%;
+    bottom: 12%;
     background-size: 100%;
 }
 
 .btn-five {
     background-image: url('image/uzi.jpg');
-    right: 6%;
-    bottom: 11%;
+    right: 19%;
+    top: 25%;
     background-size: 75%;
 }
 
