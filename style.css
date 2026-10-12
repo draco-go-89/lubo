@@ -165,7 +165,16 @@ footer {
     position: absolute;
     font-size: 8px;
     justify-content: center;
-    padding: 10px;
+    padding: 5px ;
     bottom: 0;
     width: 100%;
+    color: #000;
+    margin: 0;
+}
+
+/* this removes the blue link dashed color */
+footer p, footer a {
+    font-family: inherit;
+    text-decoration: none;
+    color: #000;
 }
