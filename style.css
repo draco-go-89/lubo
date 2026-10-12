@@ -84,14 +84,14 @@ html, body {
 }
 
 .btn-seven {
-    background-image: url('image/alarm3.png');
+    background-image: url('image/alarmapp.png');
     right: 50%;
     bottom: 34%;
-    background-size: 81%;
+    background-size: 50%;
 }
 
-/* FROM HERE THE ABOUT POP-UP */
 
+/* FROM HERE THE ABOUT POP-UP */
 .modal-backdrop {
     display: none;
     position: fixed; /* fixed */
@@ -150,7 +150,7 @@ html, body {
 }
 
 .image-button img {
-    width: 39%;
+    width: 49%;
 }
 
 .image-button:active img {
@@ -165,11 +165,14 @@ footer {
     position: absolute;
     font-size: 8px;
     justify-content: center;
-    padding: 5px ;
+    padding: 6px;
     bottom: 0;
     width: 100%;
     color: #000;
     margin: 0;
+    /* this is horizontal line in footer */
+    border-top: 1px solid #ccc;
+    padding-top: 9px;
 }
 
 /* this removes the blue link dashed color */

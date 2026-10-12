@@ -3,9 +3,12 @@
     {
       "name": "Default",
       "files": [
+        "image/alarmapp.png",
         ".vscode/changelists.json",
+        "image/imp2.png",
         "style.css",
-        "index.html"
+        "index.html",
+        "image/imp3.jpg"
       ]
     }
   ],
