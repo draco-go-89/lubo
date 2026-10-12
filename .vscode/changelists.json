@@ -3,9 +3,13 @@
     {
       "name": "Default",
       "files": [
-        "index.html",
+        "image/diya.gif",
         ".vscode/changelists.json",
-        "style.css"
+        "index.html",
+        "style.css",
+        "image/spider.png",
+        "image/man.png",
+        "image/spider2.png"
       ]
     }
   ],
