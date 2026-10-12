@@ -212,3 +212,27 @@ footer p, footer a {
     50% { transform: rotate(-12deg); }
     100% { transform: rotate(12deg); }
 }
+
+/* A HIDDEN PLAY BUTTON BEHIND SPIDERMAN */
+.sunflower  {
+    display: fixed;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    max-width: 100px;
+    height: 18%;
+    padding: 5px 15px;
+    font-weight: 400;
+    color: #00000000;
+    text-decoration: none;
+    background-color: #ffffff00;
+    border: 1.2px solid #00000000;
+    border-radius: 50px;
+    white-space: nowrap;
+    /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
+    /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+    
+    top: 0%;
+    right: 42%;
+}
+

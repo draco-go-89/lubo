@@ -3,7 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "style.css"
+        "index.html",
+        ".vscode/changelists.json",
+        "style.css",
+        "image/sunflower.mp3"
       ]
     }
   ],
