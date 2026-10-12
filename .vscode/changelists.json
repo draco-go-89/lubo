@@ -3,8 +3,11 @@
     {
       "name": "Default",
       "files": [
-        "projects.html",
-        ".vscode/changelists.json"
+        "index.html",
+        ".vscode/changelists.json",
+        "style.css",
+        "script.js",
+        "image/imp.png"
       ]
     }
   ],
