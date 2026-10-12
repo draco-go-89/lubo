@@ -3,13 +3,7 @@
     {
       "name": "Default",
       "files": [
-        "image/diya.gif",
-        ".vscode/changelists.json",
-        "index.html",
-        "style.css",
-        "image/spider.png",
-        "image/man.png",
-        "image/spider2.png"
+        "style.css"
       ]
     }
   ],
