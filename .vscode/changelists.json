@@ -3,10 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "style.css",
+        "index.html",
+        "image/spiderman3.wav",
         ".vscode/changelists.json",
-        ".vscode/settings.json",
-        "projects.html"
+        "image/spiderman4.wav"
       ]
     }
   ],
