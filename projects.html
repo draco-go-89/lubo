@@ -128,11 +128,46 @@
             top: 0%;
             background-size: 94%;
         }
+
+        /* THE SWING LIMBU */
+        .door-frame {
+            position: absolute;
+            width: 100%;
+            /* height: 400px; */
+            background-color: #ffffff;
+        }
+
+        .nimbu {
+            position: fixed;
+            top: 0;
+            left: 9%;
+            width: 120px;
+            height: 180px;
+            margin-left: -60px;
+
+            background-image: url('image/spider.png');
+            background-size: 85%;
+            background-repeat: no-repeat;
+            background-position: top center;
+
+            transform-origin: top center;
+            animation: swingBg 3.5s ease-in-out infinite;
+        }
+
+        @keyframes swingBg {
+            0% { transform: rotate(12deg); }
+            50% { transform: rotate(-12deg); }
+            100% { transform: rotate(12deg); }
+        }
+
     </style>
-    
+    <!-- SPIDERMAN -->
+    <div class="nimbu"></div>
+
     <a href="index.html" class="img-btn btn-one" target="_self" title="Link 1"></a>
     <a href="https://my-portfolio-rho-red-28.vercel.app/" class="img-btn btn-six" target="_self" title="Link 6"></a>
 
+    <!-- PROJECTS -->
     <div class="project-container">
 
         <div class="project-card">

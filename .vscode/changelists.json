@@ -3,10 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "index.html",
-        ".vscode/changelists.json",
         "style.css",
-        "image/sunflower.mp3"
+        ".vscode/changelists.json",
+        ".vscode/settings.json",
+        "projects.html"
       ]
     }
   ],

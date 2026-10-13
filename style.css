@@ -198,7 +198,7 @@ footer p, footer a {
     height: 180px;
     margin-left: -60px;
 
-    background-image: url('image/spider.png');
+    background-image: url('image/spider2.png');
     background-size: 70%;
     background-repeat: no-repeat;
     background-position: top center;
@@ -218,16 +218,19 @@ footer p, footer a {
     display: fixed;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     width: 15%;
-    max-width: 100px;
-    height: 18%;
-    padding: 5px 15px;
+    /* max-width: 100px; */
+    height: 13%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 15px;
     font-weight: 400;
     color: #00000000;
     text-decoration: none;
     background-color: #ffffff00;
     border: 1.2px solid #00000000;
-    border-radius: 50px;
+    border-radius: 100px;
     white-space: nowrap;
     /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
     /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
