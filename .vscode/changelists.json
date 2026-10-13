@@ -3,9 +3,13 @@
     {
       "name": "Default",
       "files": [
-        "image/spiderman1.mp3",
         ".vscode/changelists.json",
-        "index.html"
+        "image/gwen.png",
+        "index.html",
+        "style.css",
+        "projects.html",
+        "image/cat3.png",
+        "image/spider3.png"
       ]
     }
   ],
