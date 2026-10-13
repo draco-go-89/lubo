@@ -3,10 +3,9 @@
     {
       "name": "Default",
       "files": [
-        "index.html",
-        "image/spiderman3.wav",
+        "image/spiderman1.mp3",
         ".vscode/changelists.json",
-        "image/spiderman4.wav"
+        "index.html"
       ]
     }
   ],
