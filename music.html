@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>music</title>
+</head>
+
+<body>
+    <style>
+        html,
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #fff;
+            position: relative;
+
+
+            justify-content: center;
+            align-items: center;
+            /* background-color: rgba(71, 162, 241, 0.454); */
+            background-attachment: fixed;
+            background-image: url('image/cat3.png'), url('image/web.png'), url('image/eye2.png'), url('image/uzi.jpg'), url('image/star.jpg'), url('image/spider2.png'), url('image/music1.jpg');
+            background-repeat: no-repeat;
+            background-size: 35%, 40%, 15%, 25%, 32%, 11%, 20%;
+            background-position: left 50% bottom 45%, top 0% left 0%, left 40% top 2%, right 5% bottom 95%, 100% 100%, left 40% bottom, right 0% bottom 30%;
+        }
+
+        .img-btn {
+            display: block;
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            width: 120px;
+            height: 120px;
+
+            transition: transform 0.2s ease opacity 0.2s ease;
+            opacity: 0.9;
+        }
+
+        .btn-one {
+            background-image: url('image/home2.png');
+            left: -0.5%;
+            top: -3%;
+            background-size: 75%;
+        }
+
+        .btn-six {
+            background-image: url('image/portt.png');
+            right: 0%;
+            top: -3%;
+            background-size: 92%;
+        }
+
+        /* A HIDDEN PLAY BUTTON BEHIND SPIDERMAN */
+        .sunflower {
+            display: fixed;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 15%;
+            /* max-width: 100px; */
+            height: 13%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 9px 15px;
+            font-weight: 400;
+            color: #000000;
+            text-decoration: none;
+            background-color: #e81414;
+            border: 1.2px solid #00000000;
+            border-radius: 100px;
+            white-space: nowrap;
+            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
+            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+
+            top: 0%;
+            right: 42%;
+        }
+
+        .selflove {
+            display: fixed;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 15%;
+            /* max-width: 100px; */
+            height: 13%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 9px 15px;
+            font-weight: 400;
+            color: #000000ea;
+            text-decoration: none;
+            background-color: #087dea;
+            border: 1.2px solid #00000000;
+            border-radius: 100px;
+            white-space: nowrap;
+            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
+            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+
+            top: 50%;
+            right: 42%;
+        }
+
+        .linkup {
+            display: fixed;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 15%;
+            /* max-width: 100px; */
+            height: 13%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 9px 15px;
+            font-weight: 400;
+            color: #000000f8;
+            text-decoration: none;
+            background-color: #0bc7dc;
+            border: 1.2px solid #00000000;
+            border-radius: 100px;
+            white-space: nowrap;
+            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
+            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+
+            bottom: 0%;
+            right: 50%;
+        }
+
+        .hide {
+            display: fixed;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            width: 15%;
+            /* max-width: 100px; */
+            height: 13%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 9px 15px;
+            font-weight: 400;
+            color: #160101;
+            text-decoration: none;
+            background-color: #e81414;
+            border: 1.2px solid #00000000;
+            border-radius: 100px;
+            white-space: nowrap;
+            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
+            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+
+            top: 20%;
+            right: 42%;
+        }
+    </style>
+    <a href="index.html" class="img-btn btn-one" target="_self" title="Link 1"></a>
+    <a href="https://my-portfolio-rho-red-28.vercel.app/" class="img-btn btn-six" target="_self" title="Link 6"></a>
+
+    <div>
+        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <div class="music-controls">
+            <button onclick="document.getElementById('bg-music').play()" class="img-btn sunflower">sun</button>
+        </div>
+    </div>
+
+    <div>
+        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <div class="music-controls">
+            <button onclick="document.getElementById('bg-music').play()" class="img-btn linkup">linkup</button>
+        </div>
+    </div>
+
+    <div>
+        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <div class="music-controls">
+            <button onclick="document.getElementById('bg-music').play()" class="img-btn selflove">selflove</button>
+        </div>
+    </div>
+
+    <div>
+        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <div class="music-controls">
+            <button onclick="document.getElementById('bg-music').play()" class="img-btn hide">hide</button>
+        </div>
+    </div>
+</body>
+
+</html>

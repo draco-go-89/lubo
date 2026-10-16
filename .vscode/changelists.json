@@ -3,9 +3,13 @@
     {
       "name": "Default",
       "files": [
-        "style.css",
+        "music.html",
         ".vscode/changelists.json",
-        "index.html"
+        "style.css",
+        "image/home.png",
+        "image/portfolio.png",
+        "projects.html",
+        "image/gwen.png"
       ]
     }
   ],

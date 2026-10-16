@@ -50,17 +50,17 @@ html, body {
 }
 
 .btn-one {
-    background-image: url('image/home2.png');
+    background-image: url('image/home.png');
     left: -0.5%;
-    top: -3%;
-    background-size: 75%;
+    top: -3.5%;
+    background-size: 56%;
 }
 
 .btn-six {
-    background-image: url('image/portt.png');
+    background-image: url('image/portfolio.png');
     right: 0%;
-    top: -3%;
-    background-size: 92%;
+    top: -3.5%;
+    background-size: 55%;
 }
 
 .btn-two {
