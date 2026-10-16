@@ -3,13 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "music.html",
         ".vscode/changelists.json",
-        "style.css",
-        "image/home.png",
-        "image/portfolio.png",
-        "projects.html",
-        "image/gwen.png"
+        "music.html",
+        "image/buddha.png",
+        "style.css"
       ]
     }
   ],
