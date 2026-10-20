@@ -19,29 +19,30 @@
             overflow: hidden;
             background-color: #fff;
             position: relative;
-
-
-            justify-content: center;
-            align-items: center;
-            /* background-color: rgba(71, 162, 241, 0.454); */
             background-attachment: fixed;
-            background-image: url('image/cat3.png'), url('image/webpng'), url('image/eye2.png'), url('image/uzi.jpg'), url('image/starjpg'), url('image/spider2png'), url('image/star.jpg');
+            background-image: url('image/cat3.png'), url('image/eye2.png'), url('image/uzi.jpg'), url('image/star.jpg');
             background-repeat: no-repeat;
-            background-size: 35%, 40%, 15%, 25%, 32%, 11%, 30%;
-            background-position: left 52% bottom 50%, top 0% left 0%, right 42% top 4%, right 42% top 20%, 100% 100%, left 40% bottom, right 50% bottom 0%;
+            background-size: 35%, 15%, 25%, 30%;
+            background-position: left 20% bottom 50%, left 22% top 20%, right 20% top 30%, right 30% bottom 5%;
         }
 
+        /* Base class for all absolute buttons */
         .img-btn {
-            display: block;
+            display: flex;
+            /* Changed to flex to properly center text inside buttons */
             position: absolute;
+            /* Ensures coordinate positioning works */
             background-repeat: no-repeat;
             background-position: center;
             background-size: contain;
-
-            width: 120px;
-            height: 120px;
-
-            transition: transform 0.2s ease opacity 0.2s ease;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            text-decoration: none;
+            border: 1.2px solid transparent;
+            border-radius: 100px;
+            white-space: nowrap;
+            transition: transform 0.2s ease, opacity 0.2s ease;
             opacity: 0.9;
         }
 
@@ -49,6 +50,8 @@
             background-image: url('image/home2.png');
             left: -0.5%;
             top: -3%;
+            width: 120px;
+            height: 120px;
             background-size: 75%;
         }
 
@@ -56,138 +59,86 @@
             background-image: url('image/portt.png');
             right: 0%;
             top: -3%;
+            width: 120px;
+            height: 120px;
             background-size: 92%;
         }
 
-        /* A HIDDEN PLAY BUTTON BEHIND SPIDERMAN */
+        /* Position tracking buttons */
         .sunflower {
-            display: fixed;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            width: 15%;
-            /* max-width: 100px; */
+            width: 25%;
             height: 13%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 9px 15px;
             font-weight: 400;
             color: #000000;
-            text-decoration: none;
             background-color: #e81414;
-            border: 1.2px solid #00000000;
-            border-radius: 100px;
-            white-space: nowrap;
-            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
-            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
-
-            top: 0%;
-            right: 42%;
-        }
-
-        .selflove {
-            display: fixed;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            width: 15%;
-            /* max-width: 100px; */
-            height: 13%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 9px 15px;
-            font-weight: 400;
-            color: #000000ea;
-            text-decoration: none;
-            background-color: #087dea;
-            border: 1.2px solid #00000000;
-            border-radius: 100px;
-            white-space: nowrap;
-            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
-            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
-
-            top: 50%;
-            right: 42%;
-        }
-
-        .linkup {
-            display: fixed;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            width: 15%;
-            /* max-width: 100px; */
-            height: 13%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 9px 15px;
-            font-weight: 400;
-            color: #000000f8;
-            text-decoration: none;
-            background-color: #0bc7dc;
-            border: 1.2px solid #00000000;
-            border-radius: 100px;
-            white-space: nowrap;
-            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
-            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
-
-            bottom: 0%;
-            right: 50%;
+            top: 20%;
+            left: 22%;
         }
 
         .hide {
-            display: fixed;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            width: 15%;
-            /* max-width: 100px; */
+            width: 25%;
             height: 13%;
-            margin-left: auto;
-            margin-right: auto;
-            padding: 9px 15px;
             font-weight: 400;
             color: #160101;
-            text-decoration: none;
             background-color: #e81414;
-            border: 1.2px solid #00000000;
-            border-radius: 100px;
-            white-space: nowrap;
-            /* ALL COLORS IN UP ARE SET VERY HIGH TRANSPARENT SO THAT IT IS HIDDEN BEHIND SPIDER */
-            /* ADJUST THE COLOR FIRST TO VIEW THE PLAY BUTTON */
+            top: 30%;
+            right: 20%;
+        }
 
-            top: 20%;
-            right: 42%;
+        .selflove {
+            width: 25%;
+            height: 13%;
+            font-weight: 400;
+            color: #000000ea;
+            background-color: #087dea;
+            top: 50%;
+            left: 20%;
+        }
+
+        .linkup {
+            width: 25%;
+            height: 13%;
+            font-weight: 400;
+            color: #000000f8;
+            background-color: #0bc7dc;
+            bottom: 5%;
+            right: 30%;
         }
     </style>
+
     <a href="index.html" class="img-btn btn-one" target="_self" title="Link 1"></a>
     <a href="https://my-portfolio-rho-red-28.vercel.app/" class="img-btn btn-six" target="_self" title="Link 6"></a>
 
+    <!-- Sun Track -->
     <div>
-        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <audio id="music-sun" src="image/sunflower.mp3"></audio>
         <div class="music-controls">
-            <button onclick="document.getElementById('bg-music').play()" class="img-btn sunflower">sun</button>
+            <button onclick="document.getElementById('music-sun').play()" class="img-btn sunflower">sun</button>
         </div>
     </div>
 
+    <!-- Hide Track -->
     <div>
-        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <audio id="music-hide" src="image/sunflower.mp3"></audio>
         <div class="music-controls">
-            <button onclick="document.getElementById('bg-music').play()" class="img-btn linkup">linkup</button>
+            <button onclick="document.getElementById('music-hide').play()" class="img-btn hide">hide</button>
         </div>
     </div>
 
+    <!-- Self Love Track -->
     <div>
-        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <audio id="music-selflove" src="image/sunflower.mp3"></audio>
         <div class="music-controls">
-            <button onclick="document.getElementById('bg-music').play()" class="img-btn selflove">selflove</button>
+            <button onclick="document.getElementById('music-selflove').play()"
+                class="img-btn selflove">selflove</button>
         </div>
     </div>
 
+    <!-- Link Up Track -->
     <div>
-        <audio id="bg-music" src="image/sunflower.mp3"></audio>
+        <audio id="music-linkup" src="image/sunflower.mp3"></audio>
         <div class="music-controls">
-            <button onclick="document.getElementById('bg-music').play()" class="img-btn hide">hide</button>
+            <button onclick="document.getElementById('music-linkup').play()" class="img-btn linkup">linkup</button>
         </div>
     </div>
 </body>
