@@ -3,10 +3,9 @@
     {
       "name": "Default",
       "files": [
+        "index.html",
         ".vscode/changelists.json",
-        "music.html",
-        "image/star.jpg",
-        "style.css"
+        "kali.html"
       ]
     }
   ],
