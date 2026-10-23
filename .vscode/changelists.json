@@ -3,10 +3,8 @@
     {
       "name": "Default",
       "files": [
-        "index.html",
         ".vscode/changelists.json",
-        "kali.html",
-        "music.html"
+        "style.css"
       ]
     }
   ],
