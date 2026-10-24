@@ -3,9 +3,12 @@
     {
       "name": "Default",
       "files": [
-        "style.css",
+        "projects.html",
         ".vscode/changelists.json",
-        "index.html"
+        "image/ai.png",
+        "image/time.png",
+        "image/athena.png",
+        "style.css"
       ]
     }
   ],

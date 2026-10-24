@@ -77,10 +77,10 @@ html, body {
 }
 
 .btn-five {
-    background-image: url('image/uzi.jpg');
-    right: 19%;
+    background-image: url('image/athena.png');
+    right: 15%;
     top: 25%;
-    background-size: 70%;
+    background-size: 100%;
 }
 
 .btn-seven {
