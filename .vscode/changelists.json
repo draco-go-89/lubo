@@ -4,8 +4,6 @@
       "name": "Default",
       "files": [
         ".vscode/changelists.json",
-        "image/clock.png",
-        "image/time.png",
         "projects.html"
       ]
     }
