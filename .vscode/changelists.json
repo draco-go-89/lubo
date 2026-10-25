@@ -3,8 +3,10 @@
     {
       "name": "Default",
       "files": [
+        "projects.html",
         ".vscode/changelists.json",
-        "projects.html"
+        "image/sun.png",
+        "image/time.png"
       ]
     }
   ],
