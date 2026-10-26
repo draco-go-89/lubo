@@ -4,9 +4,7 @@
       "name": "Default",
       "files": [
         "projects.html",
-        ".vscode/changelists.json",
-        "image/sun.png",
-        "image/time.png"
+        ".vscode/changelists.json"
       ]
     }
   ],
