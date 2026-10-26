@@ -3,11 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "projects.html",
         ".vscode/changelists.json",
-        "image/girl2.png",
-        "image/sun.png",
-        "image/time.png"
+        "image/musicapp.jpg",
+        "projects.html",
+        "image/ai.png"
       ]
     }
   ],
