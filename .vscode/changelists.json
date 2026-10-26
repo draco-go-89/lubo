@@ -3,10 +3,8 @@
     {
       "name": "Default",
       "files": [
-        ".vscode/changelists.json",
-        "image/musicapp.jpg",
         "projects.html",
-        "image/ai.png"
+        ".vscode/changelists.json"
       ]
     }
   ],
