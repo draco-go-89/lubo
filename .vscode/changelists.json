@@ -3,8 +3,9 @@
     {
       "name": "Default",
       "files": [
-        "index.html",
-        ".vscode/changelists.json"
+        "image/lowlife.mp3",
+        ".vscode/changelists.json",
+        "index.html"
       ]
     }
   ],
