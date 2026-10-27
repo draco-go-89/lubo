@@ -3,8 +3,9 @@
     {
       "name": "Default",
       "files": [
+        "projects.html",
         ".vscode/changelists.json",
-        "projects.html"
+        "index.html"
       ]
     }
   ],
