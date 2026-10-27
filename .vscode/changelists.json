@@ -3,9 +3,10 @@
     {
       "name": "Default",
       "files": [
-        "image/lowlife.mp3",
+        "index.html",
         ".vscode/changelists.json",
-        "index.html"
+        "style.css",
+        "image/parisgirl.png"
       ]
     }
   ],

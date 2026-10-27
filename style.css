@@ -64,9 +64,10 @@ html, body {
 }
 
 .btn-two {
-    background-image: url('image/eye.jpg');
-    right: 5%;
-    bottom: 11%;
+    background-image: url('image/parisgirl.png');
+    left: 9%;
+    top: 20%;
+    background-size: 70%;
 }
 
 .btn-four {
