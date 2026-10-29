@@ -115,13 +115,17 @@ html, body {
 
 .modal-content {
     background-color: #fff;
+    background-image: url(image/satellite.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40%;
+    z-index: -1;
     padding: 30px;
     border-radius: 3px;
     width: 90%;
     max-width: 400px;
     position: relative;
-    animation: fadeIn 0.2s ease-in-out;
-}
+    animation: fadeIn 0.2s ease-in-out;}
 
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
