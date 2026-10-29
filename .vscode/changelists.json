@@ -3,9 +3,8 @@
     {
       "name": "Default",
       "files": [
-        "image/burningrose.png",
-        ".vscode/changelists.json",
-        "style.css"
+        "style.css",
+        ".vscode/changelists.json"
       ]
     }
   ],
