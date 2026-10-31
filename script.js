@@ -16,3 +16,6 @@ window.addEventListener('click', (event) => {
         modal.style.display = 'none';
     }
 });
+
+// FOR REAL USERS IP SHOW IN VERCEL
+fetch('/api/visit');
