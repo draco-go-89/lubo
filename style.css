@@ -57,10 +57,10 @@ html, body {
 }
 
 .btn-six {
-    background-image: url('image/portfolio.png');
+    background-image: url('image/about.png');
     right: 0%;
     top: -3.5%;
-    background-size: 55%;
+    background-size: 42%;
 }
 
 .btn-two {
@@ -251,3 +251,15 @@ footer p, footer a {
     right: 42%;
 }
 
+/* FOR MUSIC.HTML */
+.text {
+    /* align-items: center; */
+    justify-content: center;
+    margin: 10px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 50px;
+    
+}
