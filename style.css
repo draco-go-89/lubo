@@ -256,10 +256,33 @@ footer p, footer a {
     /* align-items: center; */
     justify-content: center;
     margin: 10px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     color: #000000;
     text-decoration: none;
     border-radius: 50px;
     
+}
+
+/* SPIDER MOVING */
+.spider {
+    position: absolute;
+    top: 100dvh;
+    width: 60px;
+    pointer-events: none;
+    z-index: 9999;
+    /* transform-origin: center center; */
+    animation: crawl 30s ease-in-out; /* add infinite after */
+}
+
+/* @keyframes crawl {
+    18% { left:12vw; top:15vh; transform:rotate(0deg); }
+    75% { left:22vw; top:30vh; transform:rotate3d(40, 1, 20, 80deg) }
+} */
+@keyframes crawl {
+    0%  { left:15vw; top:100vh; }
+    18% { left:15vw; top:15vh; }
+    15% { left:15vw; top:15vh; transform:rotate(0deg); }
+    75% { left:20vw; top:25vh; transform:rotate3d(40,1,0,60deg); }
+    100% { left:45vw; top:-15vh; transform: rotate3d(20, 10, 0, 30deg); }
 }
