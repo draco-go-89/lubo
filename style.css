@@ -280,9 +280,9 @@ footer p, footer a {
     75% { left:22vw; top:30vh; transform:rotate3d(40, 1, 20, 80deg) }
 } */
 @keyframes crawl {
-    0%  { left:15vw; top:100vh; }
-    18% { left:15vw; top:15vh; }
-    15% { left:15vw; top:15vh; transform:rotate(0deg); }
+    0%  { left:16vw; top:100vh; }
+    18% { left:16vw; top:15vh; }
+    15% { left:16vw; top:15vh; transform:rotate(0deg); }
     75% { left:20vw; top:25vh; transform:rotate3d(40,1,0,60deg); }
     100% { left:45vw; top:-15vh; transform: rotate3d(20, 10, 0, 30deg); }
 }
