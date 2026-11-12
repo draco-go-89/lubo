@@ -251,7 +251,7 @@ footer p, footer a {
     right: 42%;
 }
 
-/* FOR MUSIC.HTML */
+/* FOR ABOUT.HTML */
 .text {
     /* align-items: center; */
     justify-content: center;
@@ -280,4 +280,25 @@ footer p, footer a {
 @keyframes crawl {
     from {left: 0; top: 100dvh;}
     to {left: 4vw; top: 32vh;}
+}
+
+.sunflower2 {
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    /* cursor: pointer; */
+    width: 130px;
+    max-width: 200px;
+    /* height: 60px; */
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff00;
+    text-decoration: none;
+    background-color: #ffffff00;
+    border: 1.2px solid #ffffff00;
+    /* border-radius: 100px; */
+    white-space: nowrap;
+
+    bottom: 25dvh;
+    left: 3vw;
 }
