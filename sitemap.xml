@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://sitemaps.org">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>https://vercel.app</loc>
+        <loc>https://lubolabao.vercel.app/</loc>
         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
-        <loc>https://vercel.appabout.html</loc>
+        <loc>https://lubolabao.vercel.app/about.html</loc>
         <lastmod>2026-11-22</lastmod>
     </url>
     <url>
-        <loc>https://vercel.appprojects.html</loc>
+        <loc>https://lubolabao.vercel.app/projects.html</loc>
         <lastmod>2026-11-22</lastmod>
     </url>
 </urlset>
