@@ -1,5 +1,5 @@
 html, body {
-    font-family: sans-serif;
+    font-family: system-ui, -apple-system, sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -47,6 +47,49 @@ html, body {
     left: 11%;
     bottom: 9%;
     /* transform: translateY(-20%, -20%); */
+}
+
+.textt-about  {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 90px;
+    height: auto;
+    /* padding: 4px 10px; */
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff00;
+    white-space: nowrap;
+    
+}
+
+.textt-about {
+    right: 4%;
+    top: 2%;
+}
+
+.textt-home {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 90px;
+    height: auto;
+    /* padding: 4px 10px; */
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+    text-decoration: none;
+    background-color: #ffffff00;
+    white-space: nowrap;
+}
+
+.textt-home {
+    left: 4%;
+    top: 2%;
 }
 
 .btn-one {
@@ -115,15 +158,15 @@ html, body {
 
 .modal-content {
     background-color: #fff;
-    background-image: url(image/chinesegirl.gif);
-    background-position: right;
+    background-image: url(image/alarm3.png);
+    background-position: right center;
     background-repeat: no-repeat;
-    background-size: 30%;
+    background-size: 40%;
     z-index: -1;
     padding: 30px;
     border-radius: 3px;
-    width: 90%;
-    max-width: 400px;
+    width: 80%;
+    max-width: 500px;
     position: relative;
     animation: fadeIn 0.2s ease-in-out;}
 
@@ -279,7 +322,7 @@ footer p, footer a {
 
 @keyframes crawl {
     from {left: 0; top: 100dvh;}
-    to {left: 4vw; top: 32vh;}
+    to {left: 4vw; top: 35dvh;}
 }
 
 .sunflower2 {
