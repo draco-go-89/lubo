@@ -66,8 +66,8 @@
 
         h1 {
             margin: 0;
-            font-family: Georgia, "Times New Roman", serif;
-            font-size: clamp(42px, 8vw, 72px);
+            font-family: system-ui, -apple-system, sans-serif;
+            font-size: clamp(42px, 8vw, 70px);
             font-weight: 400;
             letter-spacing: -0.05em;
         }
@@ -173,7 +173,6 @@
             overflow: hidden;
             margin: 0 0 4px;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 4;
         }
 
         .post-full p {
@@ -204,27 +203,13 @@
             text-align: center;
         }
 
-        footer p {
-            margin: 0;
-        }
-
-        footer a {
-            text-decoration: none;
-        }
+        footer p { margin: 0; }
+        footer a { text-decoration: none; }
 
         @media (max-width: 600px) {
-            main {
-                padding-top: 28px;
-            }
-
-            .page-heading {
-                margin-bottom: 34px;
-            }
-
-            .photo-strip img {
-                flex-basis: 86%;
-                width: 86%;
-            }
+            main { padding-top: 28px; }
+            .page-heading { margin-bottom: 34px; }
+            .photo-strip img { flex-basis: 86%; width: 86%; }
         }
     </style>
 </head>
@@ -237,23 +222,23 @@
 
     <main>
         <header class="page-heading">
-            <p class="eyebrow">Lubo Labao · Writing &amp; journalism</p>
-            <h1>Stories &amp; notes</h1>
+            <!-- <p class="eyebrow">Lubo Labao · Writing &amp; journalism</p> -->
+            <h1>My Blog</h1>
             <p class="intro">A place for my writing, observations, and stories. Scroll through the photos, then open a post to read the full article.</p>
         </header>
 
         <section aria-label="Blog posts">
             <article class="post">
                 <header class="post-heading">
-                    <h2>Your first story goes here</h2>
+                    <h2>My Journey to the Coding</h2>
                     <time datetime="2026-11-24">24 November 2026</time>
                 </header>
 
-                <div class="photo-carousel" aria-label="Photos for Your first story goes here">
+                <div class="photo-carousel" aria-label="Photos for My Journey">
                     <div class="photo-strip" tabindex="0" aria-label="Scroll horizontally through post photos">
                         <!-- Add or remove images to match each post. Use your own image paths and descriptive alt text. -->
                         <img src="image/cat3.png" alt="A cat illustration">
-                        <img src="image/burningrose.png" alt="A rose illustration">
+                        <img src="image/diya.gif" alt="A rose illustration">
                         <img src="image/guiter.jpg" alt="A guitar">
                     </div>
                     <div class="carousel-controls" aria-label="Photo controls">
@@ -280,7 +265,7 @@
                     <div class="photo-strip" tabindex="0" aria-label="Scroll horizontally through post photos">
                         <!-- Add or remove images to match each post. Use your own image paths and descriptive alt text. -->
                         <img src="image/cat3.png" alt="A cat illustration">
-                        <img src="image/burningrose.png" alt="A rose illustration">
+                        <img src="image/eye2.png" alt="A eye illustration">
                         <img src="image/guiter.jpg" alt="A guitar">
                     </div>
                     <div class="carousel-controls" aria-label="Photo controls">
